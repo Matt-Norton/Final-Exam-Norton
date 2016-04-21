@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+</head>
+
+<body>
+    <div id="diceroll">
+    <figure>
+        <!-- area in which the rollDice function changes the image and number depending on the roll -->
+        <img src="images/dice1.png" alt="die1" name="rolldice1">
+        <figcaption id="die1" class="dice">0</figcaption>
+        </figure>
+        <figure>
+            <img src="images/dice1.png" alt="die2" name="rolldice2">
+            <figcaption id="die2" class="dice">0</figcaption>
+        </figure>
+    </div>
+   <!-- on button click start rollDice function --> 
+    <button onclick="rollDice()">Roll Dice</button>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
